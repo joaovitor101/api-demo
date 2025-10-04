@@ -11,7 +11,7 @@ on:
       - 'LICENSE'         # Ignora o arquivo de licença
       - 'CONTRIBUTING.md' # Ignora o guia de contribuição
   pull_request:
-    branches: ["main"] # Executa sempre que um Pull Request for aberto para a branch 'main'
+    branches: ["master"] # Executa sempre que um Pull Request for aberto para a branch 'main'
     paths-ignore:
       - 'README.md'       # Ignora mudanças apenas no README
       - 'docs/**'         # Ignora qualquer arquivo dentro da pasta 'docs'
