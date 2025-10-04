@@ -4,7 +4,7 @@ name: Java CI com Maven
 # Eventos que disparam este workflow
 on:
   push:
-    branches: ["main"] # Executa sempre que houver um push na branch 'main'
+    branches: ["master"] # Executa sempre que houver um push na branch 'main'
     paths-ignore:
       - 'README.md'       # Ignora mudanças apenas no README
       - 'docs/**'         # Ignora qualquer arquivo dentro da pasta 'docs'
